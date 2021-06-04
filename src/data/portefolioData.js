@@ -1,4 +1,4 @@
-export const portfolioData = [
+export const portefolioData = [
   {
     id: 1,
     name: 'ipsum.com',
