@@ -4,7 +4,7 @@ class Languages extends Component {
   state = {
     languages: [
       { id: 1, value: "Javascript", xp: 0.5 },
-      { id: 2, value: "CSS", xp: 0.5 },
+      { id: 2, value: "SQL", xp: 1 },
       { id: 3, value: "PHP", xp: 0.3 },
       { id: 4, value: "Wlangage", xp: 1 },
     ],
@@ -22,12 +22,12 @@ class Languages extends Component {
       <div className="languagesFrameworks">
         <ProgressBar
           languages={languages}
-          className="languagesDisplay"
+          className="languageDisplay"
           title="languages"
         />
         <ProgressBar
           languages={frameworks}
-          className="frameworksDisplay"
+          className="frameworkDisplay"
           title="frameworks & librairies"
         />
       </div>

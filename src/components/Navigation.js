@@ -6,7 +6,7 @@ const Navigation = () => {
     <div className="sidebar">
       <div className="id">
         <div className="idContent">
-          <img src="./media/billGates.jpg" alt="profil" />
+          <img src="./media/Profil.jpg" alt="profil" />
           <h3>Noël Juillerat</h3>
         </div>
       </div>
@@ -60,7 +60,7 @@ const Navigation = () => {
               <i className="fab fa-github"></i>
             </a>
           </li>
-          <li>
+          {/* <li>
             <a
               href="https://noeljuillerat.github.io/TP-HTML/"
               target="_blank"
@@ -68,11 +68,11 @@ const Navigation = () => {
             >
               <i className="fab fa-github"></i>
             </a>
-          </li>
+          </li> */}
         </ul>
-      </div>
-      <div className="signature">
-        <p>From Me For You - 2021</p>
+        <div className="signature">
+          <p>From Me For You - 2021</p>
+        </div>
       </div>
     </div>
   );

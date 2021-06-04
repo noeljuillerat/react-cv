@@ -72,6 +72,8 @@
 
       li {
         position: relative;
+        transform: translateY(5px);
+        transition: 0.4s ease;
       }
 
       i {
