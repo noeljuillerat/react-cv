@@ -1,6 +1,6 @@
 {
   "homepage": " https://noeljuillerat.github.io/react-cv/",
-  "name": "recat-cv",
+  "name": "react-cv",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
